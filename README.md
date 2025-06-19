@@ -15,6 +15,15 @@ The notebook demonstrates a modeling workflow starting **after data imputation**
   - KNN
   - LDA
   - SVM (with optional normality test and transformation)
+  - 
+## 📂 Dataset
+
+This project is based on the **SECOM manufacturing dataset** from the UCI Machine Learning Repository:
+
+- 📥 [Download SECOM dataset](https://archive.ics.uci.edu/ml/datasets/SECOM)
+- The dataset contains 1567 observations and 590 features collected from semiconductor manufacturing processes, with a binary classification target (`Pass/Fail`).
+
+⚠️ The modeling starts **after data imputation**, so raw data loading and imputation steps are not included in this notebook.
 
 ## 🛠 Function-Based Design
 
